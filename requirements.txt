@@ -1,0 +1,6 @@
+# NVMe Admin Command Tool - Python Dependencies
+# No external dependencies required - uses only Python standard library
+#
+# For testing:
+# pytest>=7.0.0
+# pytest-cov>=4.0.0
