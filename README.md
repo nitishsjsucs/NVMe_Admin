@@ -181,9 +181,18 @@ nvme-tool/
 
 MIT License
 
+## My Contributions
+
+- **NVMe IOCTL Interface** — Implemented the low-level Windows IOCTL interface for sending NVMe admin commands (Identify Controller, Identify Namespace, Get Log Page) through the Windows storage stack.
+- **SMART Data Parser** — Built the SMART/Health Information Log Page parser that extracts and displays critical SSD health metrics including temperature, wear leveling, data units read/written, and error counts.
+- **Cross-Platform Architecture** — Designed the dual-implementation approach with both Python (ctypes) and C++ versions for maximum compatibility and performance.
+- **Error Handling & Validation** — Developed comprehensive error handling for privilege escalation, device access, and NVMe command status code interpretation.
+
+---
+
 ## Author
 
-Nitish Chowdary - [GitHub](https://github.com/nitishsancs)
+Nitish Chowdary - [GitHub](https://github.com/nitishsjsucs)
 
 ## References
 
